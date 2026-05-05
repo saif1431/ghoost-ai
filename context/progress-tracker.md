@@ -4,18 +4,17 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Design System Setup
+- Editor Base Chrome
 
 ## Current Goal
 
-- Install and configure shadcn/ui with core components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea)
-- Install lucide-react for icons
-- Create lib/utils.ts with cn() helper function
-- Ensure dark theme consistency
+- Build editor navbar with sidebar toggle
+- Build floating project sidebar shell with tabs and CTA
 
 ## Completed
 
 - 01-design-system: Installed shadcn/ui with all required components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react, and created lib/utils.ts with cn() helper. All components compiled successfully with dark theme support.
+- 02-editor: Added editor navbar and floating project sidebar shell components.
 
 ## In Progress
 
@@ -23,9 +22,8 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Next Up
 
-- Verify all components import without errors
-- Test cn() helper functionality
-- Confirm dark theme styling is applied
+- Wire editor chrome into the editor layout
+- Verify new editor components import without errors
 
 ## Open Questions
 
