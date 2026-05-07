@@ -117,3 +117,28 @@
   --sidebar-border: #2a2a30;
   --sidebar-ring: #00c8d4;
 }
+
+.cl-rootBox label,
+.cl-rootBox input,
+.cl-rootBox textarea,
+.cl-rootBox select {
+  color: var(--color-text-primary);
+}
+
+.cl-rootBox input::placeholder,
+.cl-rootBox textarea::placeholder {
+  color: var(--color-text-muted);
+  opacity: 1;
+}
+
+.cl-rootBox input:-webkit-autofill,
+.cl-rootBox input:-webkit-autofill:hover,
+.cl-rootBox input:-webkit-autofill:focus,
+.cl-rootBox textarea:-webkit-autofill,
+.cl-rootBox textarea:-webkit-autofill:hover,
+.cl-rootBox textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-text-primary);
+  transition: background-color 9999s ease-in-out 0s;
+  box-shadow: 0 0 0 1000px transparent inset;
+  caret-color: var(--color-text-primary);
+}

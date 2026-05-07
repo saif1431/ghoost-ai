@@ -4,17 +4,17 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Editor Base Chrome
+- Authentication
 
 ## Current Goal
 
-- Build editor navbar with sidebar toggle
-- Build floating project sidebar shell with tabs and CTA
+- Wire Clerk provider, auth pages, route protection, and user menu
 
 ## Completed
 
 - 01-design-system: Installed shadcn/ui with all required components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react, and created lib/utils.ts with cn() helper. All components compiled successfully with dark theme support.
 - 02-editor: Added editor navbar and floating project sidebar shell components.
+- 03-auth: Added ClerkProvider with dark theme overrides, sign-in/sign-up pages, proxy-based route protection, root redirects, editor navbar user menu, AuthShell feature list support, and client-only Providers wrapper for Clerk.
 
 ## In Progress
 
@@ -22,8 +22,8 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Next Up
 
-- Wire editor chrome into the editor layout
-- Verify new editor components import without errors
+- Verify auth routing and UI in the editor flow
+- Run build to confirm Clerk integration
 
 ## Open Questions
 

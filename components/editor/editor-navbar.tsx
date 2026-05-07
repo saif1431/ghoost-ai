@@ -1,5 +1,6 @@
 "use client"
 
+import { UserButton } from "@clerk/nextjs"
 import { PanelLeftClose, PanelLeftOpen } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -38,7 +39,15 @@ export function EditorNavbar({
         </Button>
       </div>
       <div className="flex flex-1 items-center justify-center" />
-      <div className="flex items-center justify-end" />
+      <div className="flex items-center justify-end">
+        <UserButton
+          appearance={{
+            elements: {
+              avatarBox: "h-8 w-8",
+            },
+          }}
+        />
+      </div>
     </header>
   )
 }
