@@ -4,26 +4,27 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Editor
+- Data
 
 ## Current Goal
 
-- Build the /editor home screen and project dialogs
+- Confirm next feature scope
 
 ## Completed
 
 - 01-design-system: Installed shadcn/ui with all required components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react, and created lib/utils.ts with cn() helper. All components compiled successfully with dark theme support.
 - 02-editor: Added editor navbar and floating project sidebar shell components.
 - 03-auth: Added ClerkProvider with dark theme overrides, sign-in/sign-up pages, proxy-based route protection, root redirects, editor navbar user menu, AuthShell feature list support, and client-only Providers wrapper for Clerk.
+- 04-project-dialogs: Build editor home state, project dialogs, and sidebar actions.
+- 05-prisma: Added project models, Prisma client singleton, and initial migration.
 
 ## In Progress
 
-- 04-project-dialogs: Build editor home state, project dialogs, and sidebar actions.
+- None yet.
 
 ## Next Up
 
-- Verify auth routing and UI in the editor flow
-- Run build to confirm Clerk integration
+- Define the next feature spec
 
 ## Open Questions
 
