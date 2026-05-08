@@ -4,11 +4,11 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Authentication
+- Editor
 
 ## Current Goal
 
-- Wire Clerk provider, auth pages, route protection, and user menu
+- Build the /editor home screen and project dialogs
 
 ## Completed
 
@@ -18,7 +18,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## In Progress
 
-- None yet.
+- 04-project-dialogs: Build editor home state, project dialogs, and sidebar actions.
 
 ## Next Up
 
